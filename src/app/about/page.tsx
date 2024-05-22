@@ -1,4 +1,4 @@
-// src/app/about/page.tsx
+
 
 import Image from 'next/image';
 
@@ -38,8 +38,8 @@ export default function About() {
               objectFit="cover"
               className="z-0"
               placeholder="blur"
-              blurDataURL={section.image} // Placeholder for blurred effect
-              quality={75} // Reduce quality for faster loading
+              blurDataURL={section.image} 
+              quality={75} 
             />
             <div className="relative z-20 p-4 text-white">
               <h2 className="text-xl font-bold mb-2">{section.title}</h2>
